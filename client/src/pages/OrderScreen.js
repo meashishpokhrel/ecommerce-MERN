@@ -36,7 +36,7 @@ const OrderScreen = ({ match, history }) => {
   const { userInfo } = userLogin
 
   if (!loading) {
-    //   Calculate prices
+    //   Here we are Calculating Prices
     const addDecimals = (num) => {
       return (Math.round(num * 100) / 100).toFixed(2)
     }
